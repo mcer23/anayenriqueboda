@@ -1,0 +1,61 @@
+/*COUNTDTOWN COMPONENT*/
+.countdown-date {
+  background-color: var(--color-accent);
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 45px;
+}
+
+.countdown-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: -50px;
+  padding: 16px;
+}
+
+.countdown-details-box {
+  text-align: center;
+  background-color: var(--color-contrast);
+  width: 100px;
+  max-width: 22%;
+  margin: 0px 4px;
+  padding: 0px;
+}
+
+.countdown-details-box--value {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--color-secondary);
+  margin-bottom: 0;
+  margin-top: 12px;
+}
+
+.countdown-details-box--item {
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+p.countdown-details-divider {
+  font-size: 1.7rem;
+  color: var(--color-secondary);
+  font-weight: 500;
+}
+/*END COUNTDTOWN COMPONENT*/
+
+/* Laptop y superiores */
+@media (min-width: 1024px) {
+  .countdown-details-box {
+    width: 120px;
+    margin: 0px 12px;
+    height: 100px;
+  }
+
+  .countdown-details-box--value {
+    margin-top: 22px;
+  }
+}

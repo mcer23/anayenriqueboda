@@ -1,0 +1,11 @@
+.msj-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  padding: 30px 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.msj-section p{
+    line-height: 1.8;
+}

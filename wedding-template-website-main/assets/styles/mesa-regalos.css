@@ -1,0 +1,46 @@
+.mesa-regalos {
+  img {
+    width: 90px;
+    border-radius: 16px;
+  }
+}
+
+.mesa-regalos__block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.mesa-regalos__block__item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.mesa-regalos__block__item__info {
+  text-align: center;
+  p,
+  a {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  a {
+    font-size: 12px;
+  }
+}
+
+/* Tablets y superiores */
+@media (min-width: 768px) {
+  .mesa-regalos__block {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .mesa-regalos__block__item {
+    gap: 50px;
+  }
+}

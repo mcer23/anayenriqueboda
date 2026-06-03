@@ -1,0 +1,37 @@
+/*NUPCIAL*/
+#nupcial {
+  padding: 0px 16px;
+}
+
+.nupcial-title {
+  font-weight: 500;
+}
+
+.nupcial-parents {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  font-weight: 500;
+}
+
+.nupcial-parents-left p,
+.nupcial-parents-right p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.nupcial-padrinos {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.nupcial-padrinos-lazo p,
+.nupcial-padrinos-anillos p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+/*FIN*/

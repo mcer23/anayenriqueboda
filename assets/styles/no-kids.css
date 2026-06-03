@@ -1,0 +1,11 @@
+.no-kids {
+  background-color: var(--color-accent);
+  text-align: center;
+  padding: 30px 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  h3 {
+    font-weight: 400;
+  }
+}

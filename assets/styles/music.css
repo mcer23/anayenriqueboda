@@ -1,0 +1,23 @@
+.music {
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+
+  button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 10px;
+    cursor: pointer;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.confirmation {
+  h3 {
+    font-weight: 400;
+  }
+
+  .confirmation__link__wrapper {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .confirmation__link {
+    padding-left: 4em;
+    padding-right: 4em;
+    border-radius: 1em;
+    background-color: var(--color-accent);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

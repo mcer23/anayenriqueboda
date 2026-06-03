@@ -1,0 +1,212 @@
+/*SECCION PARA INCRUSTAR LA FUENTE PRINICIPAL Y SECUNDARIA*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*FIN DE SECCION*/
+
+/*SECCION QUE IMPORTA LOS ESTILOS DE LOS DEMAS COMPONENTES*/
+/*NO BORRAR*/
+@import './countdown.css';
+@import './nupcial.css';
+@import './schedules.css';
+@import './no-kids.css';
+@import './gallery.css';
+@import './confirmation.css';
+@import './banner.css';
+@import './dress-code.css';
+@import './mesa-regalos.css';
+@import './greetings.css';
+@import './music.css';
+/*FIN DE SECCION*/
+
+/*SECCION QUE DECLARA LAS VARIABLES A UTILIZAR*/
+:root {
+  --color-primary: #212402; /*COLOR 3 CON RESPECTO A LA PLANTILLA*/
+  --color-secondary: #38502e; /*COLOR 1 CON RESPECTO A LA PLANTILLA*/
+  --color-accent: #828945; /*COLOR 2 CON RESPECTO A LA PLANTILLA*/
+  --color-background: #e9ded2; /*COLOR 4 CON RESPECTO A LA PLANTILLA*/
+  --color-contrast: #ffffff; /*COLOR DE CONTRASTE CON RESPECTO A LA PLANTILLA EN ESTE CASO BLANCO*/
+  --font-primary: 'Montserrat', serif; /*FUENTE PRINCIPAL*/
+  --font-secondary: 'Dancing Script', serif; /*FUENTE SECUNDARIA*/
+
+  --breakpoint-xs: 480px; /* Teléfonos pequeños */
+  --breakpoint-sm: 640px; /* Teléfonos grandes */
+  --breakpoint-md: 768px; /* Tablets */
+  --breakpoint-lg: 1024px; /* Laptops */
+  --breakpoint-xl: 1280px; /* Monitores grandes */
+  --breakpoint-2xl: 1536px; /* Pantallas extra grandes */
+}
+/*FIN DE SECCION QUE DECLARA LAS VARIABLES A UTILIZAR*/
+
+/*SECCION DE LOS ESTILOS GENERALES*/
+body {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-secondary);
+}
+
+h1 {
+  font-size: 3em;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+button {
+  background: var(--color-accent);
+  background-color: var(--color-contrast);
+}
+
+.text-color-primary {
+  color: var(--color-primary);
+}
+
+.text-color-secondary {
+  color: var(--color-secondary);
+}
+
+.text-color-accent {
+  color: var(--color-accent);
+}
+
+.text-color-contrast {
+  color: var(--color-contrast);
+}
+
+.m-sm {
+  margin: 4px;
+}
+
+.mx-sm {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.my-sm {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.m-md {
+  margin: 8px;
+}
+
+.mx-md {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.my-md {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.p-sm {
+  padding: 4px;
+}
+
+.px-sm {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.py-sm {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.p-md {
+  padding: 8px;
+}
+
+.px-md {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.py-md {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.px-l {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.py-l {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.px-xl {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.py-xl {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.box-shadow-1 {
+  -webkit-box-shadow: 1px 4px 6px 0px rgba(176, 176, 176, 1);
+  -moz-box-shadow: 1px 4px 6px 0px rgba(176, 176, 176, 1);
+  box-shadow: 1px 4px 6px 0px rgba(176, 176, 176, 1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold-500 {
+  font-weight: 500;
+}
+
+section.section {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  section.section {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+
+/* Monitor Grande */
+@media (min-width: 1280px) {
+  section.section {
+    padding-left: 17%;
+    padding-right: 17%;
+  }
+}
+
+/* Pantalla extra grande */
+@media (min-width: 1536px) {
+  section.section {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+/*FIN SECCION DE LOS ESTILOS GENERALES*/
