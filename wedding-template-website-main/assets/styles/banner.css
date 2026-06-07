@@ -1,11 +1,13 @@
 .floating {
   position: absolute;
 }
+
 .in-line {
   display: inline;
   text-align: center;
   width: 100%;
 }
+
 .columns {
   display: flex;
   justify-content: center;
@@ -16,6 +18,8 @@
 .no-margin {
   margin: 0;
 }
+
+
 header {
   .bigger-text {
     font-size: 4em;
@@ -112,3 +116,5 @@ header {
     }
   }
 }
+
+
