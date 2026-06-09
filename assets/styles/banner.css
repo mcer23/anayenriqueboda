@@ -28,7 +28,7 @@ header {
     h2.getting-married {
       font-size: 2em;
       color: var(--color-contrast);
-      margin-top:50px; !important;
+      margin-top:50px !important;
     }
 
     h1.groom {

@@ -1,6 +1,7 @@
 .confirmation {
   h3 {
     font-weight: 400;
+    font-size: 16px;
   }
 
   .confirmation__link__wrapper {
