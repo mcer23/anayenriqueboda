@@ -4,7 +4,7 @@
   ul {
     list-style: none;
     padding-left: 0;
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -25,7 +25,7 @@
 }
 
 .dress-code__block__women__omit {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
