@@ -1,6 +1,5 @@
 .greetings {
   height: 50vh;
-  background-image: url('../img/greetings_image.png?v=2');
   background-position: center;
   background-size: cover;
   position: relative;
