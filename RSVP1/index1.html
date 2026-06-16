@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A&E Nuestra Boda</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css" /> 
+    <link rel="icon" type="image/x-icon" href="../assets/favico/anillos.png" />
+    <!--NO BORRAR-->
+    <meta property="og:title" content="Ana & Enrique">
+    <meta property="og:description" content="¡Nos encantaría que nos acompañaras en nuestra boda!">
+    <meta property="og:image" content="https://www.nuestroenlace.com.mx/assets/img/banner.png">
+    <meta property="og:url" content="https://www.nuestroenlace.com.mx">
+    <meta property="og:type" content="website">   
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.nuestroenlace.com.mx/assets/img/banner.png">
+  </head>
+  <body>
+    <header id="banner">
+      <div class="banner-text">
+        <div class="in-line floating home-header">
+          <h2 class="getting-married no-margin">¡Nos casamos!</h2>
+        </div>
+        <div class="columns floating">
+          <h1 class="groom bigger-text no-margin">Ana</h1>
+          <h1 class="and no-margin">&</h1>
+          <h1 class="bride bigger-text no-margin">Enrique</h1>
+        </div>
+      </div>
+      <div class="banner-img">
+        <img src="../assets/img/banner.png" alt="Bride and groom banner" />
+      </div>
+    </header>
+
+    <section id="countdown">
+      <div class="countdown-date">
+        <h2 class="font-secondary text-color-contrast my-md">Save the date</h2>
+        <h2 class="text-color-contrast my-md">31 de octubre del 2026</h2>
+        <p class="text-color-contrast my-md">Culiacán, Sin.</p>
+      </div>
+      <div class="countdown-details">
+        <div class="countdown-details-box box-shadow-1">
+          <p id="days" class="countdown-details-box--value"></p>
+          <p class="countdown-details-box--item">Días</p>
+        </div>
+
+        <p class="countdown-details-divider">:</p>
+
+        <div class="countdown-details-box box-shadow-1">
+          <p id="hours" class="countdown-details-box--value"></p>
+          <p class="countdown-details-box--item">Horas</p>
+        </div>
+
+        <p class="countdown-details-divider">:</p>
+
+        <div class="countdown-details-box box-shadow-1">
+          <p id="minutes" class="countdown-details-box--value"></p>
+          <p class="countdown-details-box--item">Minutos</p>
+        </div>
+
+        <p class="countdown-details-divider">:</p>
+
+        <div class="countdown-details-box box-shadow-1">
+          <p id="seconds" class="countdown-details-box--value"></p>
+          <p class="countdown-details-box--item">Segundos</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="nupcial">
+      <h3 class="nupcial-title text-center">
+        Acompañanos a celebrar nuestra unión, en compañía de nuestros:
+      </h3>
+
+      <h2 class="text-center font-secondary text-color-accent">Padres</h2>
+      <div class="nupcial-parents">
+        <div class="nupcial-parents-left">
+          <p>Carlos Enrique Vega Pereda</p>
+          <p>Sofia Cárdenas Pacheco</p>
+        </div>
+
+        <div class="nupcial-parents-right">
+          <p>Francisco Eleazar Jacobo Niebla</p>
+          <p>Leticia Roiz Salcido</p>
+        </div>
+      </div>
+
+      <!-- <div class="nupcial-padrinos">
+        <div class="nupcial-padrinos-lazo">
+          <h2 class="text-center font-secondary text-color-accent">
+            Padrinos de lazo
+          </h2>
+          <p>Luis Fernando Lopez Gomez</p>
+          <p>Guadalupe Hernandez Diaz</p>
+        </div>
+        <div class="nupcial-padrinos-anillos">
+          <h2 class="text-center font-secondary text-color-accent">
+            Padrinos de anillos
+          </h2>
+          <p>Carlos Armando Gonzalez Morales</p>
+          <p>Maria Josefina Aguilar Castro</p>
+        </div>
+      </div> -->
+
+      <div id="ceremony"></div>
+      <div id="reception"></div>
+    </section>
+
+    <section id="schedules" class="schedules section">
+      <h2 class="schedules__title">Horarios</h2>
+
+      <div class="schedules__details">
+        <div class="schedules__details__religious-ceremony">
+          <img
+            class="schedules__details__religious-ceremony__image"
+            src="../assets/img/church.png"
+            alt="Iglesia"
+          />
+
+          <div class="schedules__details__religious-ceremony__info">
+            <h3>Ceremonia religiosa</h3>
+            <p
+              class="schedules__details__religious-ceremony__place text-color-accent"
+            >
+              Parroquia de San Gabriel
+            </p>
+            <p class="text-color-subtitle">5:00 P.M</p>
+            <br />
+            <p class="schedules__details__religious-ceremony__info_address">
+              Gabriel Leyva, Desarrollo Urbano<br />
+              Tres Ríos, 80020 <br />
+              Culiacán Rosales, Sin.
+            </p>
+
+            <a href="https://maps.app.goo.gl/y1vyMy8LSjXYWDC57" target="_blank"
+              >Ver ubicación</a
+            >
+          </div>
+        </div>
+
+        <div class="schedules__details__reception">
+          <img
+            class="schedules__details__reception__image"
+            src="../assets/img/reception.png"
+            alt="Recepción"
+          />
+
+          <div class="schedules__details__reception__info">
+            <h3>Recepción</h3>
+            <p class="schedules__details__reception__place text-color-accent">
+             Salón stasac
+            </p>
+            <p class="text-color-subtitle">8:00 P.M - 01:00 A.M</p>
+            <br />
+            <p class="schedules__details__reception__info_address">
+              Blvd. Ciudades Hermanas 493 Ote,<br />
+              Lomas de Guadalupe, 80250,<br />
+              Culiacán Rosales, Sin.
+            </p>
+
+            <a href="https://maps.app.goo.gl/zATcDCopFBCYKDZo6" target="_blank"
+              >Ver ubicación</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="no-kids" class="no-kids">
+      <h3 class="text-color-contrast my-md">
+        Queremos que sea una noche especial para todos, donde el amor y la gratitud llenen el aire. Gracias por su cariño en el día más feliz de nuestras vidas.
+      </h3>
+    </section>
+
+    <section class="dress-code section">
+      <h2>Código de vestimenta</h2>
+      <p class="text-color-subtitle bold-500" style="text-align: center;"><b>De etiqueta</b></p>
+      <div class="dress-code__block">
+        <div class="dress-code__block__men">
+          <div>
+            <p class="text-color-subtitle bold-500">Hombres</p>
+            <ul>
+              <li>Corbata sencilla</li>
+              <li>Camisa</li>
+              <li>Saco y pantalón de vestir</li>
+              <li>Zapatos</li>
+            </ul>
+          </div>
+          <!-- <img
+            src="./assets/img/dress-code-men.png"
+            alt="Codigo de vestimenta hombres"
+          /> -->
+        </div>
+        <div class="dress-code__block__women">
+          <div>
+            <p class="text-color-subtitle bold-500">Mujeres</p>
+            <ul>
+              <li>Vestido largo</li>
+              <li>Tacones</li>
+            </ul>
+            <p class="dress-code__block__women__omit text-color-secondary">
+              <p style="font-style: italic; color:#A36F57;">Omitir Colores:</p>
+            </p>
+            <ul>
+              <li>Blanco y beige</li>
+            </ul>
+          </div>
+          <!-- <img
+            src="./assets/img/dress-code-women.png"
+            alt="Codigo de vestimenta mujeres"
+          /> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="confirmation section">
+      <h2>Confirma tu Asistencia</h2>
+      <h3 class="my-md text-center text-color-primary">
+        Para nosotros es muy importante que <br />
+        nos acompañes, por favor ayúdanos confirmando su asistencia.
+      </h3>
+      <div class="confirmation__link__wrapper">
+        <a
+          class="confirmation__link text-color-contrast py-md mt-md"
+          href="https://forms.gle/wZtJ9PWkBBWZcvkr7"
+          target="_blank"
+          >Confirmar</a
+        >
+      </div>
+    </section>
+
+    <section class="mesa-regalos section">
+      <h2>Regalos</h2>
+      <div class="mesa-regalos__block">
+        <div class="mesa-regalos__block__item">
+          <img src="../assets/img/mesa_regalos_1.png" alt="Mesa de regalos 1" />
+          <div class="mesa-regalos__block__item__info">
+            <p class="text-color-secondary bold-500">Transferencia</p>
+            <p class="text-color-accent">NU</p>
+            <p class="text-color-secondary">Ana Cristina <br/> Vega Cardenas</p>
+            <p class="text-color-accent">5101-2575-9875-6958</p>
+          </div>
+        </div>
+
+        <div class="mesa-regalos__block__item mesa-regalos__block__tc">
+          <img src="../assets/img/mesa_regalos_2.png" alt="Mesa de regalos 2" />
+          <div class="mesa-regalos__block__item__info">
+            <p class="text-color-secondary bold-500">Mesa de regalos</p>
+            <p class="text-color-accent">Liverpool</p>
+            <a
+              class="text-color-accent"
+              target="_blank"
+              href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51758937"
+              >Ver mesa de regalos</a
+            >
+          </div>
+        </div>
+        <div class="mesa-regalos__block__item mesa-regalos__block__tc">
+          <img src="../assets/img/mesa_regalos_3.png" alt="Mesa de regalos 2" />
+          <div class="mesa-regalos__block__item__info">
+            <p class="text-color-secondary bold-500">Mesa de regalos</p>
+            <p class="text-color-accent">Amazon</p>
+            <a
+              class="text-color-accent"
+              target="_blank"
+              href="https://www.amazon.com.mx/wedding/share/EnriqueYAna"
+              >Ver mesa de regalos</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="msj-section">
+      <p class="text-color-primary">Dicen que la felicidad es más grande cuando se comparte, y hoy, al mirar a nuestro alrededor, entendemos perfectamente por qué. <br />
+      Gracias por acompañarnos en este día tan especial, por ser testigos de nuestro compromiso, de nuestras promesas y del amor que nos une.
+      Su presencia convierte este momento en un recuerdo imborrable y nos llena de alegría saber que contamos con personas tan importantes en nuestras vidas.<br />
+      Que esta celebración sea también una celebración de la amistad, de la familia y de todos los lazos que nos unen.</p>
+    </section>
+    <!-- <section class="access_links_section">
+      <h2>Ubica tu mesa</h2>
+      <p>Próximamente</p>
+
+      <h2>Adjunta tus imagenes</h2>
+      <p>Próximamente</p>
+
+    </section> -->
+
+    <!-- <section id="gallery" class="gallery section">
+      <h2 class="gallery__title">Galería</h2>
+      <div class="gallery__photos">
+        <img src="./assets/img/gallery/1.png" alt="Foto 1" />
+        <img src="./assets/img/gallery/2.png" alt="Foto 2" />
+        <img src="./assets/img/gallery/3.png" alt="Foto 3" />
+        <img src="./assets/img/gallery/4.png" alt="Foto 4" />
+      </div>
+    </section> -->
+
+    <section class="greetings">
+      <div class="greetings__shadow"></div>
+      <div class="greetings__gradient"></div>
+      <p class="greetings__heading text-color-contrast">
+        Gracias por estar aquí y por acompañarnos en el comienzo de esta nueva etapa.
+      </p>
+      <h2 class="greetings_text font-secondary text-color-contrast">
+        Con amor, Ana y Enrique.
+
+      </h2>
+    </section>
+
+    <section class="music">
+      <button id="toggle-music">
+        <img
+          id="toggle-music-content"
+          src="../assets/img/music-icons/music-player.png"
+          alt="Play music"
+        />
+      </button>
+      <audio id="bg-music" loop>
+        <source src="./assets/music/background-music.mp3" type="audio/mpeg" />
+      </audio>
+    </section>
+
+    <script src="../assets/scripts/script.js"></script> <!--NO BORRAR-->
+  </body>
+</html>
