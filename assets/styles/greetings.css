@@ -3,7 +3,7 @@
   background-image: url(../img/greetings_img.png);
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: relative;}
 
   .greetings__shadow {
     width: 100%;
