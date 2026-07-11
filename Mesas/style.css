@@ -1,0 +1,45 @@
+:root{
+    --background:#FDFBF7;
+    --header:#68391D;
+    --txt: #fff;
+    --btn:#8C8B5C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{margin-top:71px;}
+
+body{margin-left:54px}
+h1,h2,p{ color:var(--header);}
+
+h1{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Botones de busqueda */
+.btn-invitado {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    border: 1px solid #b5945b;
+    color: #b5945b;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-invitado:hover {
+    background-color: #b5945b;
+    color: #ffffff;
+}
+   
+
+

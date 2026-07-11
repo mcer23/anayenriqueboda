@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu mesa</title>
+    
+</head>
+<body>
+    <!-- Inicio -->
+    <header>
+        <h1>Encuentra tu mesa</h1>
+        <p class="info-text txt-content">Escribe tu nombre completo (Sin acentos) abajo para conocer tu mesa asignada.</p>
+    </header>
+    <!-- Buscador -->
+    <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Escribe tu nombre aquí..." oninput="buscarInvitado()">
+    </div>
+    <!-- Info -->
+    <div id="resultCard" class="result-card hidden">
+        <div id="selectorInvitados" class="selector-container"></div>
+        <div id="detalleInvitado" class="hidden">
+            <p class="etiqueta-resultado">Invitado:</p>
+            <h3 id="resInvitado"></h3>
+
+            <p class="etiqueta-resultado">Acompañante</p>
+            <h3 id="resAcompanante"></h3>
+
+            <p class="etiqueta-resultado">Número de mesa:</p>
+            <div id="resMesa">00</div>
+            
+            <!-- Imagen del mapa resaltado -->
+            <h2 class="etiqueta-resultado">Mapa de la mesa</h2>
+            <div class="map-container">
+                <img id="resMapa" src="" alt="Mapa de la mesa">
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

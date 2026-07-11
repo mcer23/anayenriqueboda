@@ -3,7 +3,7 @@
   background-image: url('../img/greetings_img.png');
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: relative;}
 
   .greetings__shadow {
     width: 100%;
@@ -44,7 +44,7 @@
     padding-left: 1em;
     padding-right: 1em;
   }
-}
+
 
 /*Laptop and higer*/
 @media (min-width: 1024px) {
