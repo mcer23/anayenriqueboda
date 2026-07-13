@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuentra tu mesa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favico/anillos.png" />
     
 </head>
 <body>
     <!-- Inicio -->
     <header>
         <h1>Encuentra tu mesa</h1>
-        <p class="info-text txt-content">Escribe tu nombre completo (Sin acentos) abajo para conocer tu mesa asignada.</p>
+        <p class="info-text txt-content">Escribe tu nombre completo (sin acentos) abajo para conocer tu mesa asignada.</p>
     </header>
     <!-- Buscador -->
     <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Escribe tu nombre aquí..." oninput="buscarInvitado()">
+            <input type="text" id="searchInput" placeholder=" Jose Perez Garcia" oninput="buscarInvitado()">
     </div>
     <!-- Info -->
     <div id="resultCard" class="result-card hidden">
         <div id="selectorInvitados" class="selector-container"></div>
         <div id="detalleInvitado" class="hidden">
-            <p class="etiqueta-resultado">Invitado:</p>
-            <h3 id="resInvitado"></h3>
+            <p class="etiqueta-titulo">Invitado:</p>
+            <p  class="etiqueta-resultado"  id="resInvitado"></p>
 
-            <p class="etiqueta-resultado">Acompañante</p>
-            <h3 id="resAcompanante"></h3>
+            <p class="etiqueta-titulo">Acompañante</p>
+            <p  class="etiqueta-resultado" id="resAcompanante"></p>
 
-            <p class="etiqueta-resultado">Número de mesa:</p>
-            <div id="resMesaNum">00</div>
+            <p class="etiqueta-titulo">Número de mesa:</p>
+            <p  class="etiqueta-resultado" id="resMesaNum">00</p>
             
             <!-- Imagen del mapa resaltado -->
-            <h2 class="etiqueta-resultado">Mapa de la mesa</h2>
+            <p class="etiqueta-titulo">Mapa de la mesa</p>
             <div class="map-container">
                 <img id="resMapa" src="" alt="Mapa de la mesa">
             </div>
         </div>
+        <div id="resultClear" class="result-clear hidden">
+            <button id="clearButton" onclick="limpiarBusqueda()">Limpiar</button>
+
+        </div>
+
     </div>
+
+    <div class="return-btn  hidden">
+        <a href="../index.html" class="btn-regresar">Regresar</a>
 
     </div>
     

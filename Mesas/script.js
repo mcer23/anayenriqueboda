@@ -120,3 +120,22 @@ function mostrarDetalle(invitado) {
 
     detalle.classList.remove("hidden");
 }
+
+// ==========================================
+// 5. FUNCIÓN PARA LIMPIAR LA BÚSQUEDA
+// ==========================================
+function limpiarBusqueda() {
+    // 1. Limpiamos el cuadro de texto donde el usuario escribe
+    document.getElementById("searchInput").value = "";
+    
+    // 2. Escondemos la tarjeta de resultados completa
+    document.getElementById("resultCard").classList.add("hidden");
+    
+    // 3. Escondemos la sección interna de detalles
+    document.getElementById("detalleInvitado").classList.add("hidden");
+    
+    // 4. Limpiamos los botones de nombres duplicados si existían
+    document.getElementById("selectorInvitados").innerHTML = "";
+    
+    console.log("Búsqueda e interfaz limpiadas con éxito.");
+}
