@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra tu mesa</title>
+    <link rel="stylesheet" href="../assets/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="../assets/favico/anillos.png" />
+    
+</head>
+<body>
+    <header>
+     <section id="nupcial" class="ubicar_mesa section desktopstyle">
+      <h1 class="text-center font-secondary text-color-accent desktopstyle">Encuentra tu mesa</h1>
+          <p class="my-gr text-center text-color-primary">Escribe tu número de teléfono abajo para conocer tu mesa asignada. <br></p>
+        <p class="text-center"><i>Solo números de diez digitos</i></p>
+    </section>
+    </header>
+
+    <!-- Buscador -->
+     <section class="ubicar_mesa section">
+        <div class="search-box text-center">
+                <input type="tel" id="searchInput" placeholder=" 6677987654" oninput="buscarInvitado()">
+        </div>
+        <!-- Info -->
+        <div id="resultCard" class="result-card hidden ">
+            <div id="selectorInvitados" class="selector-container"></div>
+            <div id="detalleInvitado" class="etiquetas_txt hidden">
+                <p class="etiqueta-titulo">Invitado:</p>
+                <p  class="etiqueta-resultado"  id="resInvitado"></p>
+
+                <p class="etiqueta-titulo">Acompañante:</p>
+                <p  class="etiqueta-resultado" id="resAcompanante"></p>
+
+                <p class="etiqueta-titulo">Número de mesa:</p>
+                <p  class="etiqueta-resultado etiqueta-numero" id="resMesaNum"></p>
+                
+                <!-- Imagen del mapa resaltado -->
+                <h2 class="mapa_subtitle">Mapa de la mesa</h2>
+                <div class="map-container">
+                    <img id="resMapa" src="" alt="Mapa de la mesa">
+                </div>
+            </div>
+            <div id="resultClear" class="result-clear hidden">
+                <button id="clearButton" class="clean_btn" onclick="limpiarBusqueda()">Limpiar</button>
+            </div>
+        </div>
+
+        <div class="return-btn hidden">
+            <a href="../index.html" class="btn-regresar">Regresar</a>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

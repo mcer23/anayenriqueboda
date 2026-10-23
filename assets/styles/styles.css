@@ -16,6 +16,7 @@
 @import './greetings.css';
 @import './music.css';
 @import './msj.css';
+@import'./mesa.css';
 /*FIN DE SECCION*/
 
 /*SECCION QUE DECLARA LAS VARIABLES A UTILIZAR*/
@@ -126,11 +127,9 @@ button {
   margin-right: 8px;
 }
 
-.my-md {
+.my-gr {
   margin-top: 8px;
-  margin-bottom: 8px;
 }
-
 .p-sm {
   padding: 4px;
 }
@@ -197,6 +196,8 @@ section.section {
   padding-left: 32px;
   padding-right: 32px;
 }
+
+
 
 /* Laptop */
 @media (min-width: 1024px) {
