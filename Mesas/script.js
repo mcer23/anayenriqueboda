@@ -201,7 +201,7 @@ function mostrarDetalle(invitado) {
         invitado.acompanante.trim() || "Sin acompañante";
 
     // Número de mesa: columna E.
-    const numeroMesa = invitado.mesa || "00";
+    const numeroMesa = invitado.mesa || "Sin información";
 
     document.getElementById("resMesaNum").textContent =
         numeroMesa;
