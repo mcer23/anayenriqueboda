@@ -32,7 +32,7 @@ const mapasPorMesa = {
     "17":"assets/17.png",
     "18":"assets/18.png",
     "19":"assets/19.png",
-    "20":"assets/20.png",
+    "20":"assets/20.png"
 };
 
 
